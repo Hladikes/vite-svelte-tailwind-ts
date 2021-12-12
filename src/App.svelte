@@ -1,11 +1,5 @@
 <script>
   import './styles.css'
-  import { onMount } from 'svelte'
-  import { getWelcomeMessage } from './util'
-
-  onMount(() => {
-    console.log(getWelcomeMessage())
-  })
 </script>
 
 <main class="dark:bg-black h-screen w-screen flex flex-col items-center justify-center fixed">
